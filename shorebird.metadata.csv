@@ -1,0 +1,189 @@
+SampleID,Group,species,site,month,age,group,bird_id,type,Recap,recap_delete,Recap_num,replicate,remove_replicate,weight,wing,hb,SourceSink,Env,Date,Plate,migration
+8546,8546,Red-necked stint,Broome,August,Second year,two,3674227,bird,No,No,,No,No,,,,,,22/08/2015,2,Broome-stint-SY
+8548,8548,Red-necked stint,Broome,August,Second year,two,3674229,bird,No,No,,No,No,,,,,,22/08/2015,2,Broome-stint-SY
+8549,8549,Red-necked stint,Broome,August,Adult,two,3671906,bird,No,No,,No,No,,,,,,22/08/2015,2,Broome-stint-adult
+8551,8551,Red-necked stint,Broome,August,Second year,two,3674231,bird,No,No,,No,No,,,,,,22/08/2015,2,Broome-stint-SY
+8552,8552,Red-necked stint,Broome,August,Second year,two,3674232,bird,No,No,,No,No,,,,,,22/08/2015,2,Broome-stint-SY
+8556,8556,Red-necked stint,Broome,August,Second year,two,3674214,bird,No,No,,No,No,,,,,,22/08/2015,2,Broome-stint-SY
+8557,8557,Red-necked stint,Broome,August,Second year,two,3674215,bird,No,No,,No,No,,,,,,22/08/2015,2,Broome-stint-SY
+8558,8558,Red-necked stint,Broome,August,Second year,two,3674216,bird,No,No,,No,No,,,,,,22/08/2015,2,Broome-stint-SY
+8559,8559,Red-necked stint,Broome,August,Second year,two,3674217,bird,No,No,,No,No,,,,,,22/08/2015,2,Broome-stint-SY
+8560,8560,Red-necked stint,Broome,August,Adult,two,3674218,bird,No,No,,No,No,,,,,,22/08/2015,2,Broome-stint-adult
+8561,8561,Red-necked stint,Broome,August,Second year,two,3674219,bird,No,No,,No,No,,,,,,22/08/2015,2,Broome-stint-SY
+8563,8563,Red-necked stint,Broome,August,Second year,two,3674221,bird,No,No,,No,No,,,,,,22/08/2015,2,Broome-stint-SY
+8564,8564,Red-necked stint,Broome,August,Second year,two,3674222,bird,No,No,,No,No,,,,,,22/08/2015,2,Broome-stint-SY
+8565,8565,Red-necked stint,Broome,August,Second year,two,3674223,bird,No,No,,No,No,,,,,,22/08/2015,2,Broome-stint-SY
+8566,8566,Red-necked stint,Broome,August,Second year,two,3674234,bird,No,No,,No,No,,,,,,22/08/2015,2,Broome-stint-SY
+8569,8569,Red-necked stint,Broome,August,Second year,two,3674238,bird,No,No,,No,No,,,,,,22/08/2015,2,Broome-stint-SY
+8570,8570,Red-necked stint,Broome,August,Second year,two,3674239,bird,No,No,,No,No,,,,,,22/08/2015,2,Broome-stint-SY
+8571,8571,Red-necked stint,Broome,August,Second year,two,3674235,bird,No,No,,No,No,,,,,,22/08/2015,2,Broome-stint-SY
+8573,8573,Curlew sandpiper,Broome,August,Adult,one,4265493,bird,No,No,,No,No,,,,,,22/08/2015,2,Broome-curlewsand-adult
+8575,8575,Curlew sandpiper,Broome,August,Second year,one,4267503,bird,No,No,,No,No,,,,,,22/08/2015,2,Broome-curlewsand-SY
+8578,8578,Curlew sandpiper,Broome,August,Second year,one,4267505,bird,No,No,,No,No,,,,,,22/08/2015,2,Broome-curlewsand-SY
+8581,8581,Curlew sandpiper,Broome,August,Adult,one,4265763,bird,No,No,,No,No,,,,,,22/08/2015,2,Broome-curlewsand-adult
+8583,8583,Curlew sandpiper,Broome,August,Second year,one,4267072,bird,No,No,,No,No,,,,,,22/08/2015,2,Broome-curlewsand-SY
+8586,8586,Curlew sandpiper,Broome,August,Adult,one,4267509,bird,No,No,,No,No,,,,,,22/08/2015,2,Broome-curlewsand-adult
+8588,8588,Curlew sandpiper,Broome,August,Second year,one,4267074,bird,No,No,,No,No,,,,,,22/08/2015,2,Broome-curlewsand-SY
+8589,8589,Curlew sandpiper,Broome,August,Adult,one,4267075,bird,No,No,,No,No,,,,,,22/08/2015,2,Broome-curlewsand-adult
+8590,8590,Curlew sandpiper,Broome,August,Second year,one,4267076,bird,No,No,,No,No,,,,,,22/08/2015,2,Broome-curlewsand-SY
+8601,8601,Red-necked stint,Broome,August,Adult,two,3674269,bird,No,No,,No,No,,,,,,29/08/2015,2,Broome-stint-adult
+8604,8604,Red-necked stint,Broome,August,Adult,two,3674280,bird,No,No,,No,No,,,,,,29/08/2015,2,Broome-stint-adult
+8605,8605,Red-necked stint,Broome,August,Adult,two,3681013,bird,No,No,,Yes,No,,,,,,29/08/2015,2,Broome-stint-adult
+8605_2,8605,Red-necked stint,Broome,August,Adult,two,3681013,bird,No,No,,Yes,Yes,,,,,,29/08/2015,2,Broome-stint-adult
+8606,8606,Red-necked stint,Broome,August,Adult,two,3674285,bird,No,No,,No,No,,,,,,29/08/2015,2,Broome-stint-adult
+8607,8607,Red-necked stint,Broome,August,Adult,two,3678451,bird,No,No,,No,No,,,,,,29/08/2015,2,Broome-stint-adult
+8609,8609,Red-necked stint,Broome,August,Adult,two,3681015,bird,No,No,,No,No,,,,,,29/08/2015,2,Broome-stint-adult
+8610,8610,Red-necked stint,Broome,August,Adult,two,3648481,bird,No,No,,No,No,,,,,,29/08/2015,2,Broome-stint-adult
+8612,8612,Red-necked stint,Broome,August,Adult,two,3681019,bird,No,No,,No,No,,,,,,29/08/2015,2,Broome-stint-adult
+8613,8613,Red-necked stint,Broome,August,Adult,two,3681207,bird,No,No,,No,No,,,,,,29/08/2015,2,Broome-stint-adult
+8615,8615,Curlew sandpiper,Broome,August,Adult,one,4267514,bird,No,No,,No,No,53,133,63.7,,,29/08/2015,2,Broome-curlewsand-adult
+8616,8616,Red-necked stint,Broome,August,Adult,two,3681203,bird,No,No,,No,No,,,,,,29/08/2015,2,Broome-stint-adult
+8618,8618,Red-necked stint,Broome,August,Adult,two,3681020,bird,No,No,,No,No,,,,,,29/08/2015,2,Broome-stint-adult
+8625,8625,Curlew sandpiper,Broome,August,Adult,one,4267094,bird,No,No,,No,No,54,129,58.5,,,29/08/2015,2,Broome-curlewsand-adult
+8626,8626,Curlew sandpiper,Broome,August,Adult,one,4267512,bird,No,No,,No,No,50,131,57.9,,,29/08/2015,2,Broome-curlewsand-adult
+8627,8627,Curlew sandpiper,Broome,August,Adult,one,4267511,bird,No,No,,No,No,66,132,63.7,,,29/08/2015,2,Broome-curlewsand-adult
+8628,8628,Curlew sandpiper,Broome,August,Adult,one,4267095,bird,No,No,,No,No,56,128,60.4,,,29/08/2015,2,Broome-curlewsand-adult
+8629,8629,Curlew sandpiper,Broome,August,Adult,one,4267093,bird,No,No,,No,No,50,131,62.8,,,29/08/2015,2,Broome-curlewsand-adult
+8630,8630,Curlew sandpiper,Broome,August,Adult,one,4234241,bird,No,No,,No,No,52,132,59.3,,,29/08/2015,2,Broome-curlewsand-adult
+8632,8632,Curlew sandpiper,Broome,August,Adult,one,4265099,bird,No,No,,No,No,60,131,58,,,29/08/2015,2,Broome-curlewsand-adult
+8633,8633,Curlew sandpiper,Broome,August,Second year,one,4267092,bird,No,No,,No,No,60,132,62.5,,,29/08/2015,2,Broome-curlewsand-SY
+8634,8634,Red-necked stint,Flinders,September,Adult,three,3655828,bird,Yes,Yes,1,No,No,30,,,source,gut,20/09/2015,1,Flinders-stint-adult
+8638,8638,Red-necked stint,Flinders,September,Adult,three,3686359,bird,No,No,,No,No,28,,,source,gut,20/09/2015,1,Flinders-stint-adult
+8639,8639,Red-necked stint,Flinders,September,Adult,three,3686361,bird,Yes,Yes,1,Yes,No,31,,,source,gut,20/09/2015,1,Flinders-stint-adult
+8639_2,8639,Red-necked stint,Flinders,September,Adult,three,3686361,bird,Yes,Yes,1,Yes,Yes,31,,,source,gut,20/09/2015,1,Flinders-stint-adult
+8640,8640,Ruddy turnstone,Flinders,September,,,5278340,bird,No,No,,No,No,,,,,,20/09/2015,2,
+8644,8644,Red-necked stint,Flinders,September,Adult,three,3657909,bird,No,No,,No,No,27,,,source,gut,20/09/2015,1,Flinders-stint-adult
+8645,8645,Red-necked stint,Flinders,September,Adult,three,3686362,bird,Yes,Yes,1,No,No,29,,,source,gut,20/09/2015,1,Flinders-stint-adult
+8646,8646,Red-necked stint,Flinders,September,Adult,three,3686248,bird,No,No,,No,No,32,,,source,gut,20/09/2015,1,Flinders-stint-adult
+8649,8649,Red-necked stint,Flinders,September,Adult,three,3686297,bird,Yes,Yes,1,No,No,27,,,source,gut,20/09/2015,1,Flinders-stint-adult
+8655,8655,Red-necked stint,Flinders,September,Second year,three,3686369,bird,No,No,,No,No,31,,,source,gut,20/09/2015,1,Flinders-stint-SY
+8657,8657,Red-necked stint,Flinders,September,Adult,three,3686258,bird,Yes,Yes,1,No,No,28,,,source,gut,20/09/2015,1,Flinders-stint-adult
+8658,8658,Red-necked stint,Flinders,September,Second year,three,3686371,bird,No,No,,No,No,29,,,source,gut,20/09/2015,1,Flinders-stint-SY
+8659,8659,Red-necked stint,Flinders,September,Adult,three,3657926,bird,No,No,,No,No,27,,,source,gut,20/09/2015,1,Flinders-stint-adult
+8660,8660,Red-necked stint,Flinders,September,Adult,three,3690503,bird,No,No,,No,No,29,,,source,gut,20/09/2015,1,Flinders-stint-adult
+8662,8662,Red-necked stint,Flinders,September,Adult,three,3655831,bird,No,No,,No,No,27,,,source,gut,20/09/2015,1,Flinders-stint-adult
+8663,8663,Red-necked stint,Flinders,September,Second year,three,3686363,bird,No,No,,No,No,27,,,source,gut,20/09/2015,1,Flinders-stint-SY
+8665,8665,Red-necked stint,Flinders,September,Second year,three,3686377,bird,No,No,,No,No,25,,,source,gut,20/09/2015,1,Flinders-stint-SY
+8667,8667,Red-necked stint,Flinders,September,Second year,three,3686272,bird,No,No,,No,No,28,,,source,gut,20/09/2015,1,Flinders-stint-SY
+8671,8671,Red-necked stint,Flinders,September,Adult,three,3686241,bird,No,No,,No,No,29,,,source,gut,20/09/2015,1,Flinders-stint-adult
+8672,8672,Red-necked stint,Flinders,September,Second year,three,3686372,bird,Yes,Yes,1,No,No,30,,,source,gut,20/09/2015,1,Flinders-stint-SY
+8674,8674,Red-necked stint,Flinders,September,Second year,three,3690507,bird,No,No,,No,No,27,,,source,gut,20/09/2015,1,Flinders-stint-SY
+8675,8675,Red-necked stint,Flinders,September,Second year,three,3686378,bird,No,No,,No,No,28,,,source,gut,20/09/2015,1,Flinders-stint-SY
+8677,8677,Red-necked stint,Flinders,September,Second year,three,3686368,bird,No,No,,No,No,32,,,source,gut,20/09/2015,1,Flinders-stint-SY
+8679,8679,Red-necked stint,Flinders,September,Second year,three,3690505,bird,Yes,Yes,1,No,No,28,,,source,gut,20/09/2015,1,Flinders-stint-SY
+8680,8680,Red-necked stint,Flinders,September,Adult,three,3685834,bird,No,No,,No,No,29,,,source,gut,20/09/2015,1,Flinders-stint-adult
+8682,8682,Red-necked stint,Flinders,September,Adult,three,3685691,bird,No,No,,No,No,30,,,source,gut,20/09/2015,1,Flinders-stint-adult
+8683,8683,Red-necked stint,Flinders,September,Second year,three,3686383,bird,Yes,Yes,1,No,No,24,,,source,gut,20/09/2015,1,Flinders-stint-SY
+8684,8684,Red-necked stint,Flinders,September,Second year,three,3686373,bird,No,No,,No,No,26,,,source,gut,20/09/2015,1,Flinders-stint-SY
+8685,8685,Red-necked stint,Flinders,September,Adult,three,3657736,bird,Yes,Yes,1,No,No,27,,,source,gut,20/09/2015,1,Flinders-stint-adult
+8686,8686,Red-necked stint,Flinders,September,Second year,three,3686375,bird,No,No,,No,No,28,,,source,gut,20/09/2015,1,Flinders-stint-SY
+8688,8688,Red-necked stint,Flinders,September,Second year,three,3686380,bird,No,No,,No,No,26,,,source,gut,20/09/2015,1,Flinders-stint-SY
+8689,8689,Red-necked stint,Flinders,September,Second year,three,3686376,bird,Yes,Yes,1,No,No,28,,,source,gut,20/09/2015,1,Flinders-stint-SY
+9164,9164,Curlew sandpiper,WTP,December,,,4273353,bird,No,No,,No,No,,,,,,29/12/2015,2,WTP-curlewsand
+9165,9165,Curlew sandpiper,WTP,December,,,4273617,bird,No,No,,No,No,,,,,,29/12/2015,2,WTP-curlewsand
+9166,9166,Curlew sandpiper,WTP,December,,,4273298,bird,No,No,,No,No,,,,,,29/12/2015,2,WTP-curlewsand
+9167,9167,Curlew sandpiper,WTP,December,,,4273299,bird,No,No,,No,No,,,,,,29/12/2015,2,WTP-curlewsand
+9168,9168,Curlew sandpiper,WTP,December,,,4244208,bird,No,No,,No,No,,,,,,29/12/2015,2,WTP-curlewsand
+9169,9169,Curlew sandpiper,WTP,December,,,4273342,bird,No,No,,No,No,,,,,,29/12/2015,2,WTP-curlewsand
+9170,9170,Curlew sandpiper,WTP,December,,,4277002,bird,No,No,,No,No,,,,,,29/12/2015,2,WTP-curlewsand
+9171,9171,Curlew sandpiper,WTP,December,,,4277003,bird,No,No,,No,No,,,,,,29/12/2015,2,WTP-curlewsand
+9172,9172,Curlew sandpiper,WTP,December,,,4273300,bird,No,No,,No,No,,,,,,29/12/2015,2,WTP-curlewsand
+9175,9175,Curlew sandpiper,WTP,December,,,4273630,bird,No,No,,No,No,,,,,,29/12/2015,2,WTP-curlewsand
+9176,9176,Curlew sandpiper,WTP,December,,,4277001,bird,No,No,,No,No,,,,,,29/12/2015,2,WTP-curlewsand
+9177,9177,Curlew sandpiper,WTP,December,,,4273370,bird,No,No,,No,No,,,,,,29/12/2015,2,WTP-curlewsand
+9178,9178,Curlew sandpiper,WTP,December,,,4273059,bird,No,No,,No,No,,,,,,29/12/2015,2,WTP-curlewsand
+9180,9180,Red-necked stint,WTP,December,Unknown,,3692414,bird,No,No,,No,No,34,,,source,gut,29/12/2015,1,WTP-stint
+9181,9181,Red-necked stint,WTP,December,Unknown,,3686484,bird,No,No,,No,No,33,,,source,gut,29/12/2015,1,WTP-stint
+9185,9185,Red-necked stint,WTP,December,Unknown,,3675374,bird,No,No,,No,No,31,,,source,gut,29/12/2015,1,WTP-stint
+9186,9186,Red-necked stint,WTP,December,Unknown,,3692336,bird,No,No,,No,No,30,,,source,gut,29/12/2015,1,WTP-stint
+9187,9187,Red-necked stint,WTP,December,Unknown,,3692404,bird,No,No,,No,No,30,,,source,gut,29/12/2015,1,WTP-stint
+9188,9188,Red-necked stint,WTP,December,Unknown,,3692334,bird,No,No,,No,No,32,,,source,gut,29/12/2015,1,WTP-stint
+9191,9191,Red-necked stint,WTP,December,Unknown,,3692405,bird,No,No,,No,No,33,,,source,gut,29/12/2015,1,WTP-stint
+9192,9192,Red-necked stint,WTP,December,Unknown,,3692411,bird,No,No,,Yes,No,31,,,source,gut,29/12/2015,1,WTP-stint
+9192_2,9192,Red-necked stint,WTP,December,Juvenile,,3692411,bird,No,No,,Yes,Yes,31,,,source,gut,29/12/2015,1,WTP-stint
+9193,9193,Red-necked stint,WTP,December,Unknown,,3689801,bird,No,No,,No,No,32,,,source,gut,29/12/2015,1,WTP-stint
+9194,9194,Red-necked stint,WTP,December,Unknown,,3692407,bird,No,No,,No,No,32,,,source,gut,29/12/2015,1,WTP-stint
+9196,9196,Red-necked stint,WTP,December,Unknown,,3688793,bird,No,No,,No,No,33,,,source,gut,29/12/2015,1,WTP-stint
+9197,9197,Red-necked stint,WTP,December,Unknown,,3692412,bird,No,No,,No,No,31,,,source,gut,29/12/2015,1,WTP-stint
+9200,9200,Red-necked stint,WTP,December,Juvenile,,3692403,bird,No,No,,No,No,27,,,source,gut,29/12/2015,1,WTP-stint
+9201,9201,Red-necked stint,WTP,December,Juvenile,,3692362,bird,No,No,,No,No,27,,,source,gut,29/12/2015,1,WTP-stint
+9202,9202,Red-necked stint,WTP,December,Juvenile,,3692352,bird,No,No,,No,No,35,,,source,gut,29/12/2015,1,WTP-stint
+9203,9203,Red-necked stint,WTP,December,Unknown,,3688458,bird,No,No,,No,No,29,,,source,gut,29/12/2015,1,WTP-stint
+9204,9204,Red-necked stint,WTP,December,Juvenile,,3692349,bird,No,No,,No,No,30,,,source,gut,29/12/2015,1,WTP-stint
+9205,9205,Red-necked stint,WTP,December,Juvenile,,3692343,bird,No,No,,No,No,26,,,source,gut,29/12/2015,1,WTP-stint
+9207,9207,Red-necked stint,WTP,December,Juvenile,,3692363,bird,No,No,,No,No,30,,,source,gut,29/12/2015,1,WTP-stint
+9212,9212,Red-necked stint,WTP,December,Juvenile,,3692338,bird,No,No,,No,No,35,,,source,gut,29/12/2015,1,WTP-stint
+9213,9213,Sharp-tailed sandpiper,WTP,December,,,4257205,bird,No,No,,No,No,,,,,,29/12/2015,2,
+9216,9216,Sharp-tailed sandpiper,WTP,December,,,4277116,bird,No,No,,No,No,,,,,,29/12/2015,2,
+9217,9217,Sharp-tailed sandpiper,WTP,December,,,4277107,bird,No,No,,No,No,,,,,,29/12/2015,2,
+9218,9218,Sharp-tailed sandpiper,WTP,December,,,4277123,bird,No,No,,No,No,,,,,,29/12/2015,2,
+9221,9221,Sharp-tailed sandpiper,WTP,December,,,4277103,bird,No,No,,No,No,,,,,,29/12/2015,2,
+9222,9222,Sharp-tailed sandpiper,WTP,December,,,4277111,bird,No,No,,No,No,,,,,,29/12/2015,2,
+9223,9223,Sharp-tailed sandpiper,WTP,December,,,4277121,bird,No,No,,Yes,No,,,,,,29/12/2015,2,
+9223_2,9223,Sharp-tailed sandpiper,WTP,December,,,4277121,bird,No,No,,Yes,Yes,,,,,,29/12/2015,2,
+9224,9224,Sharp-tailed sandpiper,WTP,December,,,4257058,bird,No,No,,No,No,,,,,,29/12/2015,2,
+9225,9225,Sharp-tailed sandpiper,WTP,December,,,4272237,bird,No,No,,No,No,,,,,,29/12/2015,2,
+9227,9227,Sharp-tailed sandpiper,WTP,December,,,4277120,bird,No,No,,No,No,,,,,,29/12/2015,2,
+9229,9229,Sharp-tailed sandpiper,WTP,December,,,4277109,bird,No,No,,No,No,,,,,,29/12/2015,2,
+9230,9230,Sharp-tailed sandpiper,WTP,December,,,4277017,bird,No,No,,No,No,,,,,,29/12/2015,2,
+9231,9231,Sharp-tailed sandpiper,WTP,December,,,4277112,bird,No,No,,No,No,,,,,,29/12/2015,2,
+9232,9232,Sharp-tailed sandpiper,WTP,December,,,4277104,bird,No,No,,No,No,,,,,,29/12/2015,2,
+9233,9233,Sharp-tailed sandpiper,WTP,December,,,4273266,bird,No,No,,No,No,,,,,,29/12/2015,2,
+9236,9236,Red-necked stint,Flinders,January,Juvenile,,3692752,bird,No,No,,No,No,28,107,43,source,gut,23/01/2016,1,
+9239,9239,Red-necked stint,Flinders,January,Juvenile,,3692758,bird,No,No,,No,No,30,102,40.7,source,gut,23/01/2016,1,
+9240,9240,Red-necked stint,Flinders,January,Adult,,3690501,bird,No,No,,No,No,28,103,38.4,source,gut,23/01/2016,1,
+9248,9248,Red-necked stint,WTP,December,Juvenile,,3692379,bird,No,No,,No,No,,,,source,gut,29/12/2015,1,WTP-stint
+9251,9251,Red-necked stint,WTP,December,Juvenile,,3692536,bird,No,No,,No,No,,,,source,gut,29/12/2015,1,WTP-stint
+9258,9258,Red-necked stint,WTP,December,Juvenile,,3692398,bird,No,No,,No,No,,,,source,gut,29/12/2015,1,WTP-stint
+9259,9259,Red-necked stint,WTP,December,Juvenile,,3692383,bird,No,No,,No,No,,,,source,gut,29/12/2015,1,WTP-stint
+9260,9260,Red-necked stint,WTP,December,Juvenile,,3692550,bird,No,No,,No,No,,,,source,gut,29/12/2015,1,WTP-stint
+9268,9268,Red-necked stint,WTP,December,Juvenile,,3692567,bird,No,No,,No,No,,,,source,gut,29/12/2015,1,WTP-stint
+9311,9311,Red-necked stint,Flinders,January,Unknown,,3692745,bird,Yes,No,1,No,No,27,,40.1,source,gut,23/01/2016,1,
+9312,9312,Red-necked stint,Flinders,January,Unknown,,3657916,bird,Yes,No,1,No,No,34,,41.1,source,gut,23/01/2016,1,
+9313_2,9313,Red-necked stint,Flinders,January,,,3690505,bird,No,No,,Yes,Yes,,,,,,23/01/2016,2,
+9313,9313,Red-necked stint,Flinders,January,Second year,,3690505,bird,Yes,No,2,Yes,No,31,,40.4,source,gut,23/01/2016,1,
+9314,9314,Red-necked stint,Flinders,January,Juvenile,,3692746,bird,No,No,,No,No,29,105,39.5,source,gut,23/01/2016,1,
+9316,9316,Red-necked stint,Flinders,January,Juvenile,,3692747,bird,No,No,,No,No,29,104,40.2,source,gut,23/01/2016,1,
+9318,9318,Red-necked stint,Flinders,January,Adult,,3611876,bird,No,No,,No,No,30,108,41,source,gut,23/01/2016,1,
+9319,9319,Red-necked stint,Flinders,January,Adult,,3686297,bird,Yes,No,2,No,No,31,110,40.5,source,gut,23/01/2016,1,
+9320,9320,Red-necked stint,Flinders,January,Juvenile,,3692757,bird,No,No,,No,No,28,100,38.3,source,gut,23/01/2016,1,
+9321,9321,Red-necked stint,Flinders,January,Juvenile,,3692749,bird,No,No,,No,No,31,108,39.5,source,gut,23/01/2016,1,
+9323,9323,Red-necked stint,Flinders,January,Adult,,3686361,bird,Yes,No,2,No,No,28,,40.2,source,gut,23/01/2016,1,
+9400,9400,Red-necked stint,Flinders,March,Adult,,3655828,bird,Yes,No,2,No,No,33,102,39,source,gut,11/03/2016,1,
+9403,9403,Ruddy turnstone,Flinders,March,,,5272305,bird,No,No,,No,No,,,,,,11/03/2016,2,
+9404,9404,Ruddy turnstone,Flinders,March,,,5252128,bird,No,No,,No,No,,,,,,11/03/2016,2,
+9406,9406,Red-necked stint,Flinders,March,Juvenile,,3693211,bird,No,No,,No,No,31,103,38.6,source,gut,11/03/2016,1,
+9407,9407,Red-necked stint,Flinders,March,Unknown,,3693210,bird,No,No,,No,No,32,107,39.6,source,gut,11/03/2016,1,
+9431,9431,Red-necked stint,Flinders,March,Unknown,,3693205,bird,No,No,,No,No,34,109,38.9,source,gut,11/03/2016,1,
+9432,9432,Red-necked stint,Flinders,March,Unknown,,3657916,bird,Yes,Yes,2,No,No,34,113,40.8,source,gut,11/03/2016,1,
+9435,9435,Red-necked stint,Flinders,March,Unknown,,3693203,bird,No,No,,No,No,31,107,41,source,gut,11/03/2016,1,
+9436,9436,Red-necked stint,Flinders,March,Unknown,,3692745,bird,Yes,No,2,No,No,31,104,39.8,source,gut,11/03/2016,1,
+9437,9437,Red-necked stint,Flinders,March,Second year,,3690505,bird,Yes,Yes,3,No,No,32,107,40.3,source,gut,11/03/2016,1,
+9439,9439,Red-necked stint,Flinders,March,Adult,,3657736,bird,Yes,No,2,No,No,29,109,39.3,source,gut,11/03/2016,1,
+9440,9440,Ruddy turnstone,Flinders,March,,,5229894,bird,No,No,,No,No,,,,,,11/03/2016,2,
+9442,9442,Red-necked stint,Flinders,March,Adult,,3686258,bird,Yes,No,2,No,No,38,109,42.2,source,gut,11/03/2016,1,
+9443,9443,Red-necked stint,Flinders,March,Adult,,3686297,bird,Yes,Yes,3,No,No,36,101.3,38.9,source,gut,11/03/2016,1,
+9444,9444,Ruddy turnstone,Flinders,March,,,5223770,bird,No,No,,No,No,,,,,,11/03/2016,2,
+9446_2,9446,Red-necked stint,Flinders,March,,,3693208,bird,No,No,,Yes,Yes,,,,,,11/03/2016,2,
+9446,9446,Red-necked stint,Flinders,March,Unknown,,3693208,bird,No,No,,Yes,No,29,105,38.9,source,gut,11/03/2016,1,
+9447,9447,Ruddy turnstone,Flinders,March,,,5278397,bird,No,No,,No,No,,,,,,11/03/2016,2,
+9448,9448,Red-necked stint,Flinders,March,Second year,,3686383,bird,Yes,No,2,No,No,29,106,37.4,source,gut,11/03/2016,1,
+9449,9449,Red-necked stint,Flinders,March,Unknown,,3693207,bird,No,No,,No,No,34,107,41.9,source,gut,11/03/2016,1,
+9450,9450,Red-necked stint,Flinders,March,Second year,,3686376,bird,Yes,No,2,No,No,31,109,40.3,source,gut,11/03/2016,1,
+9451,9451,Red-necked stint,Flinders,March,Adult,,3686362,bird,Yes,No,2,No,No,32,109,40.8,source,gut,11/03/2016,1,
+9452,9452,Red-necked stint,Flinders,March,Second year,,3686372,bird,Yes,No,2,No,No,32,111,40.6,source,gut,11/03/2016,1,
+9453,9453,Red-necked stint,Flinders,March,Juvenile,,3693206,bird,No,No,,No,No,30,105,38.8,source,gut,11/03/2016,1,
+9454,9454,Ruddy turnstone,Flinders,March,,,4277076,bird,No,No,,No,No,,,,,,11/03/2016,2,
+9455,9455,Ruddy turnstone,Flinders,March,,,4277077,bird,No,No,,No,No,,,,,,11/03/2016,2,
+9456,9456,Ruddy turnstone,Flinders,March,,,5251975,bird,No,No,,No,No,,,,,,11/03/2016,2,
+9457,9457,Ruddy turnstone,Flinders,March,,,5229893,bird,No,No,,No,No,,,,,,11/03/2016,2,
+9703,9703,Ruddy turnstone,Flinders,December,,,5278559,bird,No,No,,No,No,,,,,,16/12/2016,2,
+Env_Broome_A,Env_Broome_A,env,Broome,,,,,env,No,No,,No,No,,,,,,27/08/2015,2,
+Env_Broome_E,Env_Broome_E,env,Broome,,,,,env,No,No,,No,No,,,,,,27/08/2015,2,
+Env_Flind_Jan,Env_Flind_Jan,env,Flinders,,,,,env,No,No,,No,No,,,,,,23/01/2016,2,
+F1,Flind_env,env,Flinders,March,na,,na,env,No,No,,Yes,No,,,,sink,env,11/03/2016,1,
+F2,Flind_env,env,Flinders,March,na,,na,env,No,No,,Yes,No,,,,sink,env,11/03/2016,1,
+Neg,Neg1,neg,na,na,na,,na,neg,na,No,,No,No,,,,sink,neg,1/10/2016,1,
+Neg2,Neg2,neg,,,,,,neg,No,No,,No,No,,,,,,1/04/2017,2,
+WTP1,WTP_env,env,WTP,December,na,,na,env,No,No,,No,No,,,,sink,env,29/12/2015,1,
+WTP2,WTP_env,env,WTP,December,na,,na,env,No,No,,No,No,,,,sink,env,29/12/2015,1,
