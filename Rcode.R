@@ -5,6 +5,7 @@
 #https://f1000research.com/articles/5-1492/v1
 #http://deneflab.github.io/MicrobeMiseq/demos/mothur_2_phyloseq.html
 
+#To download Phyloseq run next two lines:
 #source('http://bioconductor.org/biocLite.R')
 #biocLite('phyloseq')
 
