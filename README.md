@@ -7,9 +7,13 @@ Data analysed with Phyloseq package. Code to download this package from Biocondu
 File description
 
 shorebird.metadata.csv = metadata
+
 shorebird.shared = OTU table
+
 shorebird.taxonomy = Taxonomy table
+
 shorebird.tree = Phylogenetic tree of OTUs
+
 Rcode.R = R code for full analysis with the above files within Phyloseq. 
 
 
