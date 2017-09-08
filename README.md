@@ -1,6 +1,7 @@
 # Migration-physiology
 
 Data and code to go with the manuscript "Active migration is associated with specific and consistent changes to gut microbiota in shorebirds"
+by Alice Risely, David Waite, Bea Ujvari, Bethany Hoye & Marcel Klaassen
 
 Data analysed with Phyloseq package. Code to download this package from Bioconductor within this code.
 
