@@ -141,7 +141,7 @@ neg_control
 otu_table(neg_control)
 
 
-##97 OTUs which have over 1 reads
+##97 OTUs which have over 5 reads
 
 ##we should get rid of these
 
