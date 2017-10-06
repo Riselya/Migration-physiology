@@ -17,6 +17,8 @@ shorebird.tree = Phylogenetic tree of OTUs
 
 migrant_resident_analysis.R = R code for full analysis with the above files with Phyloseq.
 
+R_markdown.pdf = R markdown file of analysis
+
 miseq.R = Source code with some helpful functions. Should only need if you want to scale reads (as sensitivity analysis), otherwise not needed to run published analysis.
 
 
