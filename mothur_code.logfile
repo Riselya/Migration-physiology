@@ -1,0 +1,915 @@
+Linux version
+
+Using ReadLine
+
+Running 64Bit Version
+
+mothur v.1.38.1
+Last updated: 8/9/2016
+
+by
+Patrick D. Schloss
+
+Department of Microbiology & Immunology
+University of Michigan
+pschloss@umich.edu
+http://www.mothur.org
+
+When using, please cite:
+Schloss, P.D., et al., Introducing mothur: Open-source, platform-independent, community-supported software for describing and comparing microbial communities. Appl Environ Microbiol, 2009. 75(23):7537-41.
+
+Distributed under the GNU General Public License
+
+Type 'help()' for information on the commands that are available
+
+Type 'quit()' to exit program
+Interactive Mode
+
+
+mothur > make.contigs(file=stability.files, processors = 8)
+
+Using 8 processors.
+
+>>>>>	Processing file pair 8634_S2_L001_R1_001.fastq - 8634_S2_L001_R2_001.fastq (files 1 of 188)	<<<<<
+Making contigs...
+Done.
+
+It took 19 secs to assemble 88881 reads.
+
+### DELETED REST OF OUTPUT
+
+It took 4102 secs to process 18613749 sequences.
+
+Group count: 
+8546	108320
+8548	95708
+8549	90124
+8551	119128
+8552	75720
+8556	133853
+8557	80286
+8558	120411
+8559	120675
+8560	156007
+8561	97854
+8563	107802
+8564	117024
+8565	134165
+8566	120297
+8569	98577
+8570	119276
+8571	92941
+8573	115173
+8575	87921
+8578	107518
+8581	124120
+8583	93847
+8586	127987
+8588	115061
+8589	99610
+8590	104346
+8601	88798
+8604	78972
+8605	143103
+8605_2	114324
+8606	116545
+8607	137371
+8609	92319
+8610	102128
+8612	83599
+8613	140076
+8615	117961
+8616	92864
+8618	109762
+8625	121140
+8626	103897
+8627	88859
+8628	118736
+8629	140781
+8630	121846
+8632	89438
+8633	88796
+8634	88881
+8638	72866
+8639	107094
+8639_2	93477
+8640	142920
+8644	91668
+8645	96230
+8646	89245
+8649	78426
+8655	77256
+8657	89465
+8658	128610
+8659	112767
+8660	98524
+8662	109114
+8663	128935
+8665	63522
+8667	104508
+8671	96741
+8672	81033
+8674	62436
+8675	65964
+8677	87685
+8679	81178
+8680	111928
+8682	108474
+8683	69206
+8684	92595
+8685	101927
+8686	118257
+8688	101270
+8689	63901
+9164	135567
+9165	104374
+9166	117350
+9167	89866
+9168	255284
+9169	132140
+9170	104674
+9171	124368
+9172	137583
+9175	117422
+9176	122296
+9177	126447
+9178	90473
+9180	101233
+9181	75317
+9185	15430
+9186	71237
+9187	75506
+9188	93714
+9191	74516
+9192	76302
+9192_2	66575
+9193	99298
+9194	108968
+9196	90244
+9197	96204
+9200	77570
+9201	86394
+9202	67759
+9203	72798
+9204	85917
+9205	90096
+9207	81063
+9212	76077
+9213	82260
+9216	202412
+9217	122278
+9218	67430
+9221	101221
+9222	118616
+9223	100540
+9223_2	70636
+9224	77691
+9225	110467
+9227	116671
+9229	138034
+9230	127268
+9231	134982
+9232	115326
+9233	118784
+9236	101377
+9239	114449
+9240	100498
+9248	78665
+9251	71650
+9258	99326
+9259	102610
+9260	86425
+9268	119744
+9311	66504
+9312	83333
+9313	113080
+9313_2	59387
+9314	82269
+9316	104743
+9318	102159
+9319	114068
+9320	59345
+9321	70076
+9323	107043
+9400	97834
+9403	131688
+9404	140024
+9406	83129
+9407	86491
+9431	33330
+9432	93229
+9435	83895
+9436	55757
+9437	73520
+9439	82335
+9440	148127
+9442	99269
+9443	76824
+9444	142110
+9446	73526
+9446_2	105259
+9447	128651
+9448	68126
+9449	93588
+9450	57660
+9451	77105
+9452	94559
+9453	80618
+9454	96828
+9455	110021
+9456	133987
+9457	134083
+9703	123743
+Env_Broome_A	456
+Env_Broome_E	4537
+Env_Flind_Jan	143213
+F1	49895
+F2	66241
+Neg	113265
+Neg2	29779
+WTP1	60516
+WTP2	87933
+
+Total of all groups is 18613749
+
+Output File Names: 
+stability.trim.contigs.fasta
+stability.trim.contigs.qual
+stability.contigs.report
+stability.scrap.contigs.fasta
+stability.scrap.contigs.qual
+stability.contigs.groups
+
+[WARNING]: your sequence names contained ':'.  I changed them to '_' to avoid problems in your downstream analysis.
+#############################################
+mothur > unique.seqs(fasta=current)
+Using stability.trim.contigs.fasta as input file for the fasta parameter.
+18613749	9777503
+
+Output File Names: 
+stability.trim.contigs.names
+stability.trim.contigs.unique.fasta
+####################################################
+
+mothur > count.seqs(name = current, group = current)
+Using stability.contigs.groups as input file for the group parameter.
+Using stability.trim.contigs.names as input file for the name parameter.
+
+Using 8 processors.
+It took 285 secs to create a table for 18613749 sequences.
+
+
+Total number of sequences: 18613749
+
+Output File Names: 
+stability.trim.contigs.count_table
+
+####################################
+
+mothur > align.seqs(fasta=stability.trim.contigs.unique.fasta, reference = silva.bacteria.fasta, flip = T)
+
+Using 8 processors.
+
+Reading in the silva.bacteria.fasta template sequences...	DONE.
+It took 16 to read  14956 sequences.
+Aligning sequences from stability.trim.contigs.unique.fasta ...
+[WARNING]: Some of your sequences generated alignments that eliminated too many bases, a list is provided in stability.trim.contigs.unique.flip.accnos. If the reverse compliment proved to be better it was reported.
+It took 21622 secs to align 9777503 sequences.
+
+
+Output File Names: 
+stability.trim.contigs.unique.align
+stability.trim.contigs.unique.align.report
+stability.trim.contigs.unique.flip.accnos
+
+##################################################
+mothur > summary.seqs(fasta=current, count=current)
+Using stability.trim.contigs.count_table as input file for the count parameter.
+Using stability.trim.contigs.unique.align as input file for the fasta parameter.
+
+Using 8 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	0	0	0	0	1	1
+2.5%-tile:	1044	1058	4	0	1	465344
+25%-tile:	1044	13127	436	0	4	4653438
+Median: 	1044	13127	463	0	5	9306875
+75%-tile:	1044	13127	477	0	6	13960312
+97.5%-tile:	43105	43116	509	9	8	18148406
+Maximum:	43116	43116	602	189	300	18613749
+Mean:	5001.69	14907.8	394.919	0.771307	4.83303
+# of unique seqs:	9777503
+total # of seqs:	18613749
+
+Output File Names: 
+stability.trim.contigs.unique.summary
+
+It took 1562 secs to summarize 18613749 sequences.
+#############################################################
+
+mothur > screen.seqs(fasta=current, count=current, start=1044, end=13127, maxambig=0)
+Using stability.trim.contigs.count_table as input file for the count parameter.
+Using stability.trim.contigs.unique.align as input file for the fasta parameter.
+
+Using 8 processors.
+
+Output File Names: 
+stability.trim.contigs.unique.good.align
+stability.trim.contigs.unique.bad.accnos
+stability.trim.contigs.good.count_table
+
+
+It took 2663 secs to screen 9777503 sequences.
+
+##################################
+
+mothur > get.current()
+
+Current RAM usage: 13.561 Gigabytes. Total Ram: 125.756 Gigabytes.
+
+Current files saved by mothur:
+fasta=stability.trim.contigs.unique.good.align
+group=stability.contigs.groups
+name=stability.trim.contigs.names
+qfile=stability.trim.contigs.qual
+count=stability.trim.contigs.good.count_table
+processors=8
+summary=stability.trim.contigs.unique.summary
+
+Current default directory saved by mothur: ./
+
+Current working directory: /home/arisely/Mothur/mothur1/
+
+Output File Names: 
+current_files.summary
+
+#################################################################
+mothur > filter.seqs(fasta=current, vertical=T, trump=.)
+Using stability.trim.contigs.unique.good.align as input file for the fasta parameter.
+
+Using 8 processors.
+Creating Filter... 
+
+
+Running Filter... 
+
+
+
+Length of filtered alignment: 1956
+Number of columns removed: 48044
+Length of the original alignment: 50000
+Number of sequences used to construct filter: 3347011
+
+Output File Names: 
+stability.filter
+stability.trim.contigs.unique.good.filter.fasta
+#################################################################
+
+mothur > summary.seqs(fasta=current, count=current)
+Using stability.trim.contigs.good.count_table as input file for the count parameter.
+Using stability.trim.contigs.unique.good.filter.fasta as input file for the fasta parameter.
+
+Using 8 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	1	1951	383	0	3	1
+2.5%-tile:	1	1956	434	0	4	267418
+25%-tile:	1	1956	457	0	5	2674176
+Median: 	1	1956	465	0	5	5348352
+75%-tile:	1	1956	485	0	5	8022528
+97.5%-tile:	1	1956	509	0	7	10429286
+Maximum:	1	1956	598	0	223	10696703
+Mean:	1	1956	469.608	0	5.13865
+# of unique seqs:	3347011
+total # of seqs:	10696703
+
+Output File Names: 
+stability.trim.contigs.unique.good.filter.summary
+
+It took 67 secs to summarize 10696703 sequences.
+
+###############################################################
+mothur > chimera.uchime(fasta=current, count=current)
+Using stability.trim.contigs.good.count_table as input file for the count parameter.
+Using stability.trim.contigs.unique.good.filter.fasta as input file for the fasta parameter.
+
+Using 8 processors.
+
+uchime by Robert C. Edgar
+http://drive5.com/uchime
+This code is donated to the public domain.
+
+Checking sequences from stability.trim.contigs.unique.good.filter.fasta ...
+
+## DELETED OUTPUT
+
+It took 134906 secs to check 4280062 sequences. 647630 chimeras were found.
+The number of sequences checked may be larger than the number of unique sequences because some sequences are found in several samples.
+
+Output File Names: 
+stability.trim.contigs.unique.good.filter.denovo.uchime.chimeras
+stability.trim.contigs.unique.good.filter.denovo.uchime.accnos
+
+
+
+mothur > remove.seqs(fasta=current, count=current, accnos=current)
+Using stability.trim.contigs.unique.good.filter.denovo.uchime.accnos as input file for the accnos parameter.
+Using stability.trim.contigs.good.count_table as input file for the count parameter.
+Using stability.trim.contigs.unique.good.filter.fasta as input file for the fasta parameter.
+
+[NOTE]: The count file should contain only unique names, so mothur assumes your fasta, list and taxonomy files also contain only uniques.
+
+Removed 647630 sequences from your fasta file.
+Removed 1449007 sequences from your count file.
+
+Output File Names: 
+stability.trim.contigs.unique.good.filter.pick.fasta
+stability.trim.contigs.good.pick.count_table
+
+
+mothur > filter.seqs(fasta=silva.nr_v128.align,hard=stability.filter, vertical=F)
+
+Using 8 processors.
+Creating Filter... 
+
+
+Running Filter... 
+
+
+
+Length of filtered alignment: 1956
+Number of columns removed: 48044
+Length of the original alignment: 50000
+Number of sequences used to construct filter: 190661
+
+Output File Names: 
+silva.filter
+silva.nr_v128.filter.fasta
+
+
+mothur > get.current()
+
+Current RAM usage: 14.7678 Gigabytes. Total Ram: 125.756 Gigabytes.
+
+Current files saved by mothur:
+accnos=stability.trim.contigs.unique.good.filter.denovo.uchime.accnos
+fasta=silva.nr_v128.filter.fasta
+group=stability.contigs.groups
+name=stability.trim.contigs.names
+qfile=stability.trim.contigs.qual
+count=stability.trim.contigs.good.pick.count_table
+processors=8
+summary=stability.trim.contigs.unique.good.filter.summary
+
+Current default directory saved by mothur: ./
+
+Current working directory: /home/arisely/Mothur/mothur1/
+
+Output File Names: 
+current_files.summary
+
+
+mothur > classify.seqs(fasta= stability.trim.contigs.unique.unique.good.filter.pick.fasta, count=current, taxonomy = silva.nr_v128.tax, reference=silva.nr_v128.filter.fasta, cutoff=80)
+Using stability.trim.contigs.good.pick.count_table as input file for the count parameter.
+Unable to open stability.trim.contigs.unique.unique.good.filter.pick.fasta. Trying default ./stability.trim.contigs.unique.unique.good.filter.pick.fasta
+Unable to open ./stability.trim.contigs.unique.unique.good.filter.pick.fasta. It will be disregarded.
+no valid files.
+If you provide a count file, you must have one for each fasta file.
+
+Using 8 processors.
+[ERROR]: did not complete classify.seqs.
+
+mothur > classify.seqs(fasta= stability.trim.contigs.unique.good.filter.pick.fasta, count=current, taxonomy = silva.nr_v128.tax, reference=silva.nr_v128.filter.fasta, cutoff=80)
+Using stability.trim.contigs.good.pick.count_table as input file for the count parameter.
+
+Using 8 processors.
+Generating search database...    DONE.
+It took 46 seconds generate search database. 
+
+Reading in the silva.nr_v128.tax taxonomy...	DONE.
+Calculating template taxonomy tree...     DONE.
+Calculating template probabilities...     DONE.
+It took 162 seconds get probabilities. 
+Classifying sequences from stability.trim.contigs.unique.good.filter.pick.fasta ...
+[WARNING]: M02082_277_000000000-B58MB_1_1117_25402_14148 could not be classified. You can use the remove.lineage command with taxon=unknown; to remove such sequences.
+
+## DELETED OUTPUT 
+
+[WARNING]: mothur reversed some your sequences for a better classification.  If you would like to take a closer look, please check stability.trim.contigs.unique.good.filter.pick.nr_v128.wang.flip.accnos for the list of the sequences.
+
+It took 31748 secs to classify 2699381 sequences.
+
+
+It took 302 secs to create the summary file for 2699381 sequences.
+
+
+Output File Names: 
+stability.trim.contigs.unique.good.filter.pick.nr_v128.wang.taxonomy
+stability.trim.contigs.unique.good.filter.pick.nr_v128.wang.tax.summary
+stability.trim.contigs.unique.good.filter.pick.nr_v128.wang.flip.accnos
+
+
+mothur > get.current()
+
+Current RAM usage: 14.7678 Gigabytes. Total Ram: 125.756 Gigabytes.
+
+Current files saved by mothur:
+accnos=stability.trim.contigs.unique.good.filter.pick.nr_v128.wang.flip.accnos
+fasta=stability.trim.contigs.unique.good.filter.pick.fasta
+group=stability.contigs.groups
+name=stability.trim.contigs.names
+qfile=stability.trim.contigs.qual
+taxonomy=stability.trim.contigs.unique.good.filter.pick.nr_v128.wang.taxonomy
+count=stability.trim.contigs.good.pick.count_table
+processors=8
+summary=stability.trim.contigs.unique.good.filter.summary
+
+Current default directory saved by mothur: ./
+
+Current working directory: /home/arisely/Mothur/mothur1/
+
+Output File Names: 
+current_files.summary
+
+
+mothur > remove.lineage(fasta=current, count=current, taxonomy=current, taxon=unclassified)
+Using stability.trim.contigs.good.pick.count_table as input file for the count parameter.
+Using stability.trim.contigs.unique.good.filter.pick.fasta as input file for the fasta parameter.
+Using stability.trim.contigs.unique.good.filter.pick.nr_v128.wang.taxonomy as input file for the taxonomy parameter.
+
+[NOTE]: The count file should contain only unique names, so mothur assumes your fasta, list and taxonomy files also contain only uniques.
+
+
+Output File Names: 
+stability.trim.contigs.unique.good.filter.pick.nr_v128.wang.pick.taxonomy
+stability.trim.contigs.unique.good.filter.pick.pick.fasta
+stability.trim.contigs.good.pick.pick.count_table
+
+
+mothur > summary.tax(taxonomy=current, count=current)
+Using stability.trim.contigs.good.pick.pick.count_table as input file for the count parameter.
+Using stability.trim.contigs.unique.good.filter.pick.nr_v128.wang.pick.taxonomy as input file for the taxonomy parameter.
+
+It took 248 secs to create the summary file for 2454634 sequences.
+
+
+Output File Names: 
+stability.trim.contigs.unique.good.filter.pick.nr_v128.wang.pick.tax.summary
+
+##############################################################################################
+
+########### David did some alignment checks here so file names might be a bit different
+
+######################### DAVID WAITE ####################################################
+
+mothur > unique.seqs(fasta=current, count=current)
+Using stability.trim.contigs.good.pick.pick.good.count_table as input file for the count parameter.
+Using stability.trim.contigs.unique.good.filter.pick.pick.good.filter.fasta as input file for the fasta parameter.
+2621211	2608498
+
+Output File Names: 
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.count_table
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.fasta
+
+#####################################################################
+
+mothur > pre.cluster(fasta=current, count=current, diffs=5)
+Using stability.trim.contigs.unique.good.filter.pick.pick.good.filter.count_table as input file for the count parameter.
+Using stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.fasta as input file for the fasta parameter.
+
+Using 20 processors.
+
+
+
+It took 55 secs to cluster 24953 sequences.
+It took 1363 secs to run pre.cluster.
+
+Output File Names: 
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.fasta
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.count_table
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8546.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8548.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8549.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8551.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8552.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8556.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8557.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8558.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8559.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8560.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8561.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8563.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8564.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8565.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8566.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8569.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8570.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8571.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8573.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8575.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8578.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8581.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8583.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8586.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8588.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8589.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8590.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8601.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8604.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8605.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8605_2.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8606.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8607.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8609.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8610.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8612.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8613.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8615.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8616.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8618.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8625.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8626.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8627.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8628.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8629.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8630.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8632.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8633.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8634.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8638.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8639.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8639_2.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8640.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8644.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8645.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8646.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8649.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8655.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8657.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8658.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8659.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8660.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8662.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8663.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8665.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8667.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8671.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8672.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8674.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8675.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8677.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8679.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8680.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8682.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8683.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8684.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8685.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8686.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8688.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.8689.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9164.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9165.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9166.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9167.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9168.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9169.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9170.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9171.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9172.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9175.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9176.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9177.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9178.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9180.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9181.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9185.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9186.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9187.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9188.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9191.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9192.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9192_2.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9193.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9194.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9196.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9197.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9200.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9201.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9202.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9203.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9204.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9205.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9207.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9212.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9213.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9216.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9217.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9218.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9221.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9222.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9223.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9223_2.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9224.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9225.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9227.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9229.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9230.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9231.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9232.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9233.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9236.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9239.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9240.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9248.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9251.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9258.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9259.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9260.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9268.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9311.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9312.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9313.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9313_2.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9314.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9316.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9318.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9319.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9320.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9321.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9323.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9400.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9403.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9404.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9406.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9407.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9431.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9432.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9435.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9436.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9437.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9439.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9440.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9442.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9443.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9444.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9446.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9446_2.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9447.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9448.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9449.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9450.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9451.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9452.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9453.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9454.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9455.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9456.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9457.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.9703.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.Env_Broome_A.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.Env_Broome_E.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.Env_Flind_Jan.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.F1.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.F2.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.Neg.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.Neg2.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.WTP1.map
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.WTP2.map
+
+
+mothur > summary.seqs(fasta=current, count=current)
+Using stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.count_table as input file for the count parameter.
+Using stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.fasta as input file for the fasta parameter.
+
+Using 20 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	1	1824	411	0	3	1
+2.5%-tile:	1	1826	433	0	4	226717
+25%-tile:	1	1826	456	0	5	2267161
+Median: 	1	1826	464	0	5	4534322
+75%-tile:	1	1826	485	0	5	6801482
+97.5%-tile:	1	1826	508	0	6	8841926
+Maximum:	1	1826	597	0	222	9068642
+Mean:	1	1826	469.035	0	5.11576
+# of unique seqs:	389434
+total # of seqs:	9068642
+
+Output File Names: 
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.summary
+
+It took 8 secs to summarize 9068642 sequences.
+
+
+
+
+mothur > dist.seqs(fasta=stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.fasta, cutoff=0.03, processors=20)
+
+Using 20 processors.
+
+Output File Names: 
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.dist
+
+It took 101500 seconds to calculate the distances for 389434 sequences.
+
+mothur > cluster(column=current, count=current)
+Using stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.dist as input file for the column parameter.
+[WARNING]: no file was saved for count parameter.
+You need to provide a namefile or countfile if you are going to use the column format.
+
+Using 20 processors.
+[NOTE]: Default clustering method has changed to opti. To use average neighbor, set method=average.
+[ERROR]: did not complete cluster.
+
+mothur > cluster(column=current, count=stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.count_table)
+Using stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.dist as input file for the column parameter.
+
+Using 20 processors.
+[NOTE]: Default clustering method has changed to opti. To use average neighbor, set method=average.
+
+You did not set a cutoff, using 0.03.
+
+Clustering stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.dist
+
+
+iter	time	label	num_otus	cutoff	tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+0	0	0.03	389434	0.03	0	75713628700	0	115596761	0	1	0	0.998476	0	0.998476	0	0	
+1	482	0.03	133291	0.03	90660666	75689852020	23776680	24936095	0.784284	0.999686	0.79223	0.999671	0.20777	0.999358	0.787925	0.788237	
+2	394	0.03	129417	0.03	91418727	75689360825	24267875	24178034	0.790842	0.999679	0.790227	0.999681	0.209773	0.999361	0.790215	0.790534	
+3	398	0.03	129168	0.03	91445442	75689342803	24285897	24151319	0.791073	0.999679	0.790153	0.999681	0.209847	0.999361	0.790293	0.790612	
+
+
+It took 4302 seconds to cluster
+
+Output File Names: 
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.opti_mcc.list
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.opti_mcc.steps
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.opti_mcc.sensspec
+
+
+mothur > make.shared(list=current, count=current)
+Using stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.count_table as input file for the count parameter.
+Using stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.opti_mcc.list as input file for the list parameter.
+0.03
+
+Output File Names: 
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.opti_mcc.shared
+
+
+mothur > get.seqs(help)
+The get.seqs command reads an .accnos file and any of the following file types: fasta, name, group, count, list, taxonomy, quality, fastq or alignreport file.
+It outputs a file containing only the sequences in the .accnos file.
+The get.seqs command parameters are accnos, fasta, name, group, list, taxonomy, qfile, alignreport, fastq and dups.  You must provide accnos unless you have a valid current accnos file, and at least one of the other parameters.
+The dups parameter allows you to add the entire line from a name file if you add any name from the line. default=true. 
+The format parameter is used to indicate whether your sequences are sanger, solexa, illumina1.8+ or illumina, default=illumina1.8+.
+The get.seqs command should be in the following format: get.seqs(accnos=yourAccnos, fasta=yourFasta).
+Example get.seqs(accnos=amazon.accnos, fasta=amazon.fasta).
+Note: No spaces between parameter labels (i.e. fasta), '=' and parameters (i.e.yourFasta).
+
+mothur > get.seqs(taxonomy=stability.trim.contigs.unique.good.filter.pick.nr_v128.wang.pick.good.taxonomy, accnos=keep.accnos)
+Selected 389434 sequences from your taxonomy file.
+
+Output File Names: 
+stability.trim.contigs.unique.good.filter.pick.nr_v128.wang.pick.good.pick.taxonomy
+
+
+mothur > classify.otu(taxonomy=current, list=current)
+Using stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.opti_mcc.list as input file for the list parameter.
+Using stability.trim.contigs.unique.good.filter.pick.nr_v128.wang.pick.good.pick.taxonomy as input file for the taxonomy parameter.
+0.03	129168
+
+Output File Names: 
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.opti_mcc.0.03.cons.taxonomy
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.opti_mcc.0.03.cons.tax.summary
+
+
+mothur > get.otureps(fasta=current, list=current, column=current, count=current)
+
+mothur > get.oturep(fasta=current, list=current, column=current, count=current)
+Using stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.dist as input file for the column parameter.
+Using stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.count_table as input file for the count parameter.
+Using stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.fasta as input file for the fasta parameter.
+Using stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.opti_mcc.list as input file for the list parameter.
+********************#****#****#****#****#****#****#****#****#****#****#
+Reading matrix:     |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+***********************************************************************
+0.03	129168
+
+Output File Names: 
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.opti_mcc.0.03.rep.count_table
+stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.opti_mcc.0.03.rep.fasta
+
+
+mothur > system(mv stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.opti_mcc.shared stability.opti_mcc.shared)
+
+
+mothur > system(mv stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.opti_mcc.0.03.rep.fasta stability.opti_mcc.rep.fasta)
+
+
+mothur > system(mv stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.opti_mcc.0.03.rep.count_table stability.opti_mcc.rep.count_table)
+
+
+mothur > system(mv stability.trim.contigs.unique.good.filter.pick.pick.good.filter.unique.precluster.opti_mcc.0.03.cons.taxonomy stability.opti_mcc.cons.taxonomy)
+
+
+mothur > quit
