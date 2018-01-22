@@ -27,5 +27,9 @@ R MARKDOWN FILE
 
 R_markdown.pdf = R markdown file of analysis
 
+BIOINFORMATICS - MOTHUR CODE
+
+mothur_code.logfile = This is a copy of the mothur logfile outlining how we processed sequences
+
 
 
